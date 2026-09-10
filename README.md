@@ -1,6 +1,6 @@
 # Sala de Aula 
 
-Este projeto é um recurso educacional para que os alunos aprendam sobre programão de sistemas através da elaboração de um *software*
+Este projeto é um recurso educacional para que os alunos aprendam sobre programação de sistemas através da elaboração de um *software*
 
 O projeto é um sistema de gestão de sala de aula, em que será possível: 
 
