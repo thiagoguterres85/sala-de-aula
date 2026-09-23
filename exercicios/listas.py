@@ -8,11 +8,8 @@ def filtrar_pares (numeros:list):
     return pares
     
        
-if __name__ == '__main__':
-        numeros_pares = filtrar_pares([1, 2, 3, 4, 5, 6])
-        
 
-        print (numeros_pares)
+    
 
 
 
@@ -25,10 +22,35 @@ def contar_negativos (numeros: list):
      
     return "negativos"
 
-if __name__ == '__main__':
-    count = contar_negativos ([10, -3, 0, -5, 8, -1])
+
     
-    print (count)    
+
+
+#Exercicio 3 
+def somar_maiores_que (numeros:list, limite:int):
+    soma = 0
+    for numero in numeros:
+        if numero > limite:
+            soma+=numero
+    return soma 
+              
+
+    soma = somar_maiores_que ([10, 5, 20, 3, 15], 8)
+
+    print(soma)
+
+
+#Exercicio 4
+def zerar_negativos (numeros:list):
+    for numero in numeros:
+        if numero < 0: 
+    
+            return negativados 
+        
+if __name__ == '__main__':
+    negativados = zerar_negativos ([4, -2, 7, -9, 0])
+        
+    print (negativados) 
 
 
 
