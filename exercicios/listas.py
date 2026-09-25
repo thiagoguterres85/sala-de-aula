@@ -33,26 +33,26 @@ def somar_maiores_que (numeros:list, limite:int):
         if numero > limite:
             soma+=numero
     return soma 
-              
 
-    soma = somar_maiores_que ([10, 5, 20, 3, 15], 8)
-
-    print(soma)
 
 
 #Exercicio 4
-def zerar_negativos (numeros:list):
+def zerar_negativos(numeros:list):
+    aux = []
+
     for numero in numeros:
-        if numero < 0: 
-    
-            return negativados 
-        
+        if numero < 0:
+           aux.append(0)
+        else:
+            aux.append(numero)  
+
+    return aux
+
 if __name__ == '__main__':
-    negativados = zerar_negativos ([4, -2, 7, -9, 0])
-        
-    print (negativados) 
 
+    aux = zerar_negativos([4, -2, 7, -9, 0])
 
+    print(aux) 
 
  
          

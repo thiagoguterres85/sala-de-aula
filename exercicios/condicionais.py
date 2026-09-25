@@ -64,32 +64,25 @@ def maior_de_dois (a:int, b:int):
      
      if __name__ == '__main__':
           print (maior_de_dois)
-          
-
-     
-
-
-     
-     
+         
 
 
 
 
 
 
-
-
-
-
-#Exercicio6(medio)
+#Exercicio 6 (medio)
 def calcular_desconto (valor_compra:float, e_cliente_vip:bool):
-    desconto: -%15 
+
 
     if e_cliente_vip or valor_compra > 200:
-            return "True" 
+          return f"Valor final: R$ {valor_compra*0.85}"
     
-    else:
-            return "False" 
+    return f"Valor final: R$ {valor_compra * 0.95}" 
     
     if __name__ == '__main__':
+         
+
+         
+    
       
