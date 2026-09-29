@@ -27,6 +27,12 @@ def calcular_gorjeta_por_pessoa (conta:float, porcentagem_gorjeta:float, pessoas
     gorjeta = (conta* (porcentagem_gorjeta / 100)) / pessoas 
     return gorjeta 
 
+
+#Exercicio 5
+def resumo_circulo (raio: float):
+    pi = 3.14159
+    area = pi * (raio**2)
+    return f"Um circulo de raio {raio} tem área de {area:.2f}"
+
 if __name__ == '__main__':
-    gorjeta = calcular_gorjeta_por_pessoa(100, 15, 3)
-    print (gorjeta)
+    print(resumo_circulo(3.0))
