@@ -34,5 +34,12 @@ def resumo_circulo (raio: float):
     area = pi * (raio**2)
     return f"Um circulo de raio {raio} tem área de {area:.2f}"
 
+#Exercicio 6
+def resumo_juros_compostos (capital:float, taxa:float, anos:int):
+    M = capital * ((1 + (taxa / 100)) ** anos)
+    return f"Após {anos} anos, R$ {capital}, cresce para R${M: .2f}"
+
 if __name__ == '__main__':
-    print(resumo_circulo(3.0))
+    
+    M = resumo_juros_compostos(1000.0, 5.0, 3)
+    print(resumo_juros_compostos)
