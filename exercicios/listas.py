@@ -57,3 +57,13 @@ if __name__ == '__main__':
  
          
 
+#Exercicio 5
+def contem_valor (lista:list, alvo):
+    index = 0
+    while(index < len(lista)):
+        if lista[index] == alvo:
+            return True 
+        index=+1
+
+if __name__ == '__main__':
+ print(contem_valor(["maçã", "banana", "uva"], "banana"))     

@@ -1,6 +1,6 @@
 # Exercicio 1
 def fizz_buzz (numero:int):
-    if numero % 3 == 0 and % 5 == 0:
+    if numero % 3 == 0 and numero % 5 ==0:
           return "fizzbuzz"
    
     elif numero % 5 == 0:
@@ -38,7 +38,7 @@ def classificar_numero (numero:int):
           return "Negativo"
 if __name__ == '__main__':
 
-    print (classificar_numero)
+         print (classificar_numero)
 
 
 
@@ -78,10 +78,14 @@ def calcular_desconto (valor_compra:float, e_cliente_vip:bool):
     if e_cliente_vip or valor_compra > 200:
           return f"Valor final: R$ {valor_compra*0.85}"
     
-    return f"Valor final: R$ {valor_compra * 0.95}" 
+          return f"Valor final: R$ {valor_compra * 0.95}"
+    
+    else: f"Valor final: R$ {valor_compra * 127.5}"
+      
     
     if __name__ == '__main__':
          
+     print(calcular_desconto(150.0, 100.0))
 
          
     
