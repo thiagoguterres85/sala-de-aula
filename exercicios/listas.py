@@ -67,3 +67,17 @@ def contem_valor (lista:list, alvo):
 
 if __name__ == '__main__':
  print(contem_valor(["maçã", "banana", "uva"], "banana"))     
+
+
+
+#Exercicio 6
+def contar_aprovados(notas:int):
+    count = 0
+    for nota in notas:
+        if nota >= 7.0:
+         count+=1 
+        
+    return count 
+
+if __name__ == '__main__':
+   print(contar_aprovados([8.5, 5.0, 7.0, 6.5, 9.0]))
